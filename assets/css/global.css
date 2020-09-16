@@ -1,0 +1,172 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: #b0b0ca;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+header {
+	width: 100%;
+	height: 100px;
+}
+header .container {
+	width: calc(100% - 40px);
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+
+nav {
+	width: 320px;
+}
+nav ul {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+main .container {
+	width: calc(100% - 40px);
+	margin: 0 auto;
+}
+nav a {
+	color: #fe1050;
+	text-decoration: none;
+}
+
+.hero {
+	width: calc(100% - 40px);
+	margin: 0 auto;
+	height: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center
+}
+.hero div {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-bottom: 40px;
+}
+.hero p {
+	max-width: 800px;
+	text-align: center;
+}
+
+.clients {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.clients-list {
+	width: calc(100% - 40px);
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.clients-item {
+	color: #ff0000;
+	font-size: 2rem;
+	margin: 0
+}
+footer {
+	padding: 20px 0;
+	width: 100%;
+}
+footer .container {
+	width: calc(100% - 40px);
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.target img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.button {
+	background: #fff;
+	padding: 10px 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #012012;
+	border: none;
+	cursor: pointer;
+}
+.field-action {
+	width: 100%;
+	margin: 30px 0;
+}
+.forms {
+	width: 600px;
+	position: relative;
+	z-index: 1;
+}
+.field{
+	width: 100%;
+	margin: 0 0 20px;
+}
+.field label, .field input[type="text"], .field input[type="password"], .field input[type="email"], .field input[type="tel"], .field textarea, .field select {
+	width: 100%;
+}
+.field input[type="text"], .field input[type="password"], .field input[type="email"], .field input[type="tel"], .field select {
+	padding: 8px 12px;
+	font-size: 16px;
+}
+.field textarea {
+	height: 200px;
+}
+.status-form {
+	width: 300px;
+	margin: 0 auto;
+}
+.forms-loading, .forms-result {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #b0b0ca;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 100;
+	transition: all .2s ease-in-out;
+}
+.forms-loading.active, .forms-result.active {
+	visibility: visible;
+	opacity: 1;
+	transition: all .2s ease-in-out;
+}
+.forms-loading p {
+	color: #fe1050;
+	font-size: 50px;
+	position: sticky;
+	top: 50%;
+	left: 0;
+}
+.delete-cookies {
+	width: 80px;
+	height: 80px;
+}
+.delete-cookies img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
