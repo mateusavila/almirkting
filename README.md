@@ -1,5 +1,7 @@
 # nuxtteste
 
+Bom dia mundo. Nós somos uma agência especializada em copymarketing e pastemarketing. Pode copiar o nosso blog - que tá lindinho.
+
 ## Build Setup
 
 ```bash
